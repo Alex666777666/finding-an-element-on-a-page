@@ -1,5 +1,5 @@
 export const getTitleElement = title => {
-  const titleElem = document.querySelector('title')
+  const titleElem = document.querySelector('h1[class=title]')
   console.dir(titleElem)
   return titleElem
 }
