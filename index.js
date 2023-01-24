@@ -7,7 +7,7 @@ export const getTitleElement = title => {
 getTitleElement()
 
 export const getInputElement = text => {
-  const inputElem = document.querySelector('h1[class=title]')
+  const inputElem = document.querySelector('input[type=text]')
   console.dir(inputElem)
   return inputElem
 }
